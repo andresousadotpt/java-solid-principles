@@ -65,7 +65,7 @@ public class Book {
      * GOOD, goes with the Single Responsibility Principle
      * Method directly is related to the book properties
      */
-    public String replaceWordInText(final String word, final String replacementWord){
+    public String replaceWordInText(final String word, final String replacementWord) {
         return text.replaceAll(word, replacementWord);
     }
 
@@ -73,7 +73,7 @@ public class Book {
      * GOOD, goes with the Single Responsibility Principle
      * Method directly is related to the book properties
      */
-    public boolean isWordInText(final String word){
+    public boolean isWordInText(final String word) {
         return text.contains(word);
     }
 
@@ -81,7 +81,7 @@ public class Book {
      * BAD, goes against the Single Responsibility Principle
      * Method for outputting text that is not directly related to the book
      */
-    void printTextToConsole(final String text){
+    void printTextToConsole(final String text) {
         //our code for formatting and printing the text
     }
 
@@ -89,7 +89,7 @@ public class Book {
      * BAD, goes against the Single Responsibility Principle
      * Method for outputting text that is not directly related to the book
      */
-    void printTextToAnotherMedium(final String text){
+    void printTextToAnotherMedium(final String text) {
         // code for writing to any other location..
     }
 }
