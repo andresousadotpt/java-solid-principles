@@ -17,9 +17,10 @@ public class Book {
 
     /**
      * Constructor
-     * @param name book name
+     *
+     * @param name   book name
      * @param author book author
-     * @param text book text
+     * @param text   book text
      */
     public Book(final String name, final String author, final String text) {
         this.name = name;
@@ -29,6 +30,7 @@ public class Book {
 
     /**
      * Copy constructor
+     *
      * @param book book to copy
      */
     public Book(final Book book) {
@@ -107,6 +109,9 @@ public class Book {
         private String author;
         private String text;
 
+        /**
+         * Creates a new {@code Book.Builder} instance.
+         */
         public Builder() {
         }
 

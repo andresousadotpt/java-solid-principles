@@ -9,10 +9,8 @@ public class BookPrinter {
     public BookPrinter(final Book book) {
         this.book = book;
     }
-
-
-
-    public static Book getBook(){
+    
+    public static Book getBook() {
         return null;
     }
 
