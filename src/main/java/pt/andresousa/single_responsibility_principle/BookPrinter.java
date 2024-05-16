@@ -1,4 +1,4 @@
-package pt.andresousa.SingleResponsibilityPrinciple;
+package pt.andresousa.single_responsibility_principle;
 
 /**
  * SingleResponsibilityPrinciple bad class
@@ -8,6 +8,12 @@ public class BookPrinter {
 
     public BookPrinter(final Book book) {
         this.book = book;
+    }
+
+
+
+    public static Book getBook(){
+        return null;
     }
 
     /**
